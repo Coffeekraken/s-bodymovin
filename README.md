@@ -4,7 +4,7 @@ Simple webcomponent wrapper around the freaking cool bodymovin library
 
 ## Table of content
 
-1. [Demo](http://components.coffekraken.io/app/s-bodymovin-component)
+1. **[Demo](http://components.coffeekraken.io/app/s-bodymovin-component)**
 2. [Install](#readme-install)
 3. [Get Started](#readme-get-started)
 4. [Javascript API](doc/api/js)
