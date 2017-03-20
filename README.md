@@ -4,16 +4,16 @@ Simple webcomponent wrapper around the freaking cool bodymovin library
 
 ## Table of content
 
-0. [Demo](http://components.coffekraken.io/app/s-bodymovin-component)
-1. [Install](#readme-install)
-2. [Get Started](#readme-get-started)
-3. [Javascript API](doc/api/js)
-4. [SASS API](doc/api/scss)
-5. [Sugar Web Components Documentation](https://github.com/Coffeekraken/sugar/blob/master/doc/webcomponent.md)
-6. [Browsers support](#readme-browsers-support)
-7. [Contribute](#readme-contribute)
-8. [Who are Coffeekraken?](#readme-who-are-coffeekraken)
-9. [Licence](#readme-license)
+1. [Demo](http://components.coffekraken.io/app/s-bodymovin-component)
+2. [Install](#readme-install)
+3. [Get Started](#readme-get-started)
+4. [Javascript API](doc/api/js)
+5. [SASS API](doc/api/scss)
+6. [Sugar Web Components Documentation](https://github.com/Coffeekraken/sugar/blob/master/doc/webcomponent.md)
+7. [Browsers support](#readme-browsers-support)
+8. [Contribute](#readme-contribute)
+9. [Who are Coffeekraken?](#readme-who-are-coffeekraken)
+10. [Licence](#readme-license)
 
 <a name="readme-install"></a>
 ## Install
