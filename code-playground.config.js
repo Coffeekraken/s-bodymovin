@@ -3,7 +3,7 @@ module.exports = {
 	port : 3000,
 
 	// title
-	title : 's-bodymovin',
+	title : 's-bodymovin-component',
 
 	// layout
 	layout : 'right',
@@ -23,7 +23,7 @@ module.exports = {
 			data : `
 				<div class="container">
 					<h1 class="h1 m-b-small">
-						Coffeekraken s-bodymovin
+						Coffeekraken s-bodymovin-component
 					<h1>
 					<p class="p m-b-bigger">
 						Simple webcomponent wrapper around the freaking cool bodymovin library
