@@ -18,7 +18,7 @@ Simple webcomponent wrapper around the freaking cool bodymovin library
 ## Install
 
 ```
-npm install coffeekraken-s-bodymovin --save
+npm install https://github.com/Coffeekraken/s-bodymovin-component.git/release/0.0.1 --save
 ```
 
 <a name="readme-get-started"></a>
