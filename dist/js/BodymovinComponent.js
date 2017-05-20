@@ -38,9 +38,11 @@ function _inherits(subClass, superClass) { if (typeof superClass !== "function" 
  * - Support a reactive mode that play the animation when a special class is detected
  * - Cool "yoyo" mode that will play the animation backward when complete
  *
+ * @styleguide 	Objects / Bodymovin
  * @example 	html
  * <s-bodymovin src="my-cool-animation.json" yoyo></s-bodymovin>
  *
+ * @see 		http://github.coffeekraken.io/bodymovin/bodymovin/^4.0.0 		Bodymovin repository
  * @author 		Olivier Bossel <olivier.bossel@gmail.com>
  */
 var SBodymovinComponent = function (_SWebComponent) {
@@ -154,8 +156,6 @@ var SBodymovinComponent = function (_SWebComponent) {
 		value: function _onAnimationReady() {
 			var _this3 = this;
 
-			console.log('body', this.bodymovin);
-
 			// remove the loading class
 			this.classList.remove(this.props.loadingClass);
 
@@ -227,6 +227,7 @@ var SBodymovinComponent = function (_SWebComponent) {
 		}
 
 		/**
+   * @name 	bodymovin
    * Heres the list of bodymovin methods that are exposed on the component itself:
    * - play()
    * - pause()
@@ -265,7 +266,7 @@ var SBodymovinComponent = function (_SWebComponent) {
      * Bodymovin animation data object
      * @prop
      * @type 	{object}
-     * @see 	https://github.com/bodymovin/bodymovin
+     * @see 	http://github.coffeekraken.io/bodymovin/bodymovin/^4.0.0
      */
 				animationData: null,
 
@@ -273,7 +274,7 @@ var SBodymovinComponent = function (_SWebComponent) {
      * Bodymovin json animation relative path
      * @prop
      * @type 	{String}
-     * @see 	https://github.com/bodymovin/bodymovin
+     * @see 	http://github.coffeekraken.io/bodymovin/bodymovin/^4.0.0
      */
 				path: null,
 
@@ -281,7 +282,7 @@ var SBodymovinComponent = function (_SWebComponent) {
      * Alias to the "path" prop
      * @prop
      * @type 	{String}
-     * @see 	https://github.com/bodymovin/bodymovin
+     * @see 	http://github.coffeekraken.io/bodymovin/bodymovin/^4.0.0
      */
 				src: null,
 
@@ -289,7 +290,7 @@ var SBodymovinComponent = function (_SWebComponent) {
      * Set if the animation has to loop or not
      * @prop
      * @type 	{Boolean}
-     * @see 	https://github.com/bodymovin/bodymovin
+     * @see 	http://github.coffeekraken.io/bodymovin/bodymovin/^4.0.0
      */
 				loop: false,
 
@@ -297,7 +298,7 @@ var SBodymovinComponent = function (_SWebComponent) {
      * Set if the animation has to autoplay or not
      * @prop
      * @type 	{Boolean}
-     * @see 	https://github.com/bodymovin/bodymovin
+     * @see 	http://github.coffeekraken.io/bodymovin/bodymovin/^4.0.0
      */
 				autoplay: false,
 
@@ -305,7 +306,7 @@ var SBodymovinComponent = function (_SWebComponent) {
      * Specify the direction of the animation
      * @prop
      * @type 	{Integer}
-     * @see		https://github.com/bodymovin/bodymovin
+     * @see		http://github.coffeekraken.io/bodymovin/bodymovin/^4.0.0
      */
 				direction: 1,
 
@@ -313,7 +314,7 @@ var SBodymovinComponent = function (_SWebComponent) {
      * Set the playback speed
      * @prop
      * @type 	{Number}
-     * @see 	https://github.com/bodymovin/bodymovin
+     * @see 	http://github.coffeekraken.io/bodymovin/bodymovin/^4.0.0
      */
 				speed: 1,
 
@@ -321,7 +322,7 @@ var SBodymovinComponent = function (_SWebComponent) {
      * Set a name to the animation to get it later through the bodymovin api
      * @prop
      * @type 	{String}
-     * @see 	https://github.com/bodymovin/bodymovin
+     * @see 	http://github.coffeekraken.io/bodymovin/bodymovin/^4.0.0
      */
 				name: null,
 
@@ -329,7 +330,7 @@ var SBodymovinComponent = function (_SWebComponent) {
      * Set the renderer to use
      * @prop
      * @type 	{String}
-     * @see 	https://github.com/bodymovin/bodymovin
+     * @see 	http://github.coffeekraken.io/bodymovin/bodymovin/^4.0.0
      */
 				renderer: 'svg',
 

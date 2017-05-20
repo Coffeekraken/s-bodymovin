@@ -283,7 +283,6 @@ export default class SBodymovinComponent extends SWebComponent {
 	 * Actual real init method that will be fired when the bodymovin animation is ready
 	 */
 	_onAnimationReady() {
-		console.log('body', this.bodymovin);
 
 		// remove the loading class
 		this.classList.remove(this.props.loadingClass);
