@@ -12,7 +12,6 @@ import __whenProperty from 'coffeekraken-sugar/js/utils/objects/whenProperty'
  * - Support a reactive mode that play the animation when a special class is detected
  * - Cool "yoyo" mode that will play the animation backward when complete
  *
- * @styleguide 	Objects / Bodymovin
  * @example 	html
  * <s-bodymovin src="my-cool-animation.json" yoyo></s-bodymovin>
  *
