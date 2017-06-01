@@ -1,4 +1,4 @@
-# Coffeekraken s-bodymovin <img src=".resources/coffeekraken-logo.jpg" height="25px" />
+# Coffeekraken s-bodymovin-component <img src=".resources/coffeekraken-logo.jpg" height="25px" />
 
 <p>
 	<a href="https://travis-ci.org/Coffeekraken/s-bodymovin-component">
@@ -36,7 +36,7 @@ Simple webcomponent wrapper around the freaking cool [bodymovin](https://github.
 3. [Get Started](#readme-get-started)
 4. [Javascript API](doc/api/js)
 5. [SASS API](doc/api/sass)
-6. [Sugar Web Components Documentation](https://github.com/Coffeekraken/sugar/blob/master/doc/webcomponent.md)
+6. [Sugar Web Components Documentation](https://github.com/Coffeekraken/sugar/blob/master/doc/js/webcomponents.md)
 7. [Browsers support](#readme-browsers-support)
 8. [Contribute](#readme-contribute)
 9. [Who are Coffeekraken?](#readme-who-are-coffeekraken)
@@ -46,7 +46,7 @@ Simple webcomponent wrapper around the freaking cool [bodymovin](https://github.
 ## Install
 
 ```
-npm install coffeekraken-s-bodymovin --save
+npm install coffeekraken-s-bodymovin-component --save
 ```
 
 <a name="readme-get-started"></a>

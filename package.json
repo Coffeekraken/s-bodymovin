@@ -1,6 +1,6 @@
 {
   "name": "coffeekraken-s-bodymovin-component",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Simple webcomponent wrapper around the freaking cool bodymovin library",
   "main": "dist/index.js",
   "homepage": "http://coffeekraken.io",
@@ -51,7 +51,7 @@
   "license": "MIT",
   "dependencies": {
     "bodymovin": "^4.5.9",
-    "coffeekraken-sugar": "https://github.com/Coffeekraken/sugar.git#release/0.0.1"
+    "coffeekraken-sugar": "^0.0.2"
   },
   "devDependencies": {
     "babel-cli": "^6.18.0",
@@ -63,8 +63,8 @@
     "babel-preset-stage-0": "^6.16.0",
     "chai": "^3.5.0",
     "coffeekraken-code-playground": "https://github.com/Coffeekraken/code-playground.git#release/0.0.1",
-    "coffeekraken-docblock-to-markdown": "https://github.com/Coffeekraken/docblock-to-markdown.git#release/0.0.1",
-    "coffeekraken-testing-stack": "https://github.com/Coffeekraken/testing-stack.git#release/0.0.1",
+    "coffeekraken-docblock-to-markdown": "0.0.2",
+    "coffeekraken-testing-stack": "0.0.2",
     "concurrently": "^3.1.0",
     "http-server": "^0.9.0",
     "node-sass": "^4.0.0",
