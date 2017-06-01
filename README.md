@@ -1,24 +1,52 @@
-# Coffeekraken s-bodymovin <small>0.0.1</small> [![Build Status](https://travis-ci.org/Coffeekraken/s-bodymovin-component.svg?branch=release/0.0.1)](https://travis-ci.org/Coffeekraken/s-bodymovin-component)
+# Coffeekraken s-bodymovin-component <img src=".resources/coffeekraken-logo.jpg" height="25px" />
 
-Simple webcomponent wrapper around the freaking cool bodymovin library
+<p>
+	<a href="https://travis-ci.org/Coffeekraken/s-bodymovin-component">
+		<img src="https://img.shields.io/travis/Coffeekraken/s-bodymovin-component.svg?style=flat-square" />
+	</a>
+	<a href="https://www.npmjs.com/package/coffeekraken-s-bodymovin">
+		<img src="https://img.shields.io/npm/v/coffeekraken-s-bodymovin.svg?style=flat-square" />
+	</a>
+	<a href="https://github.com/coffeekraken/s-bodymovin-component/blob/master/LICENSE.txt">
+		<img src="https://img.shields.io/npm/l/coffeekraken-s-bodymovin.svg?style=flat-square" />
+	</a>
+	<!-- <a href="https://github.com/coffeekraken/s-bodymovin-component">
+		<img src="https://img.shields.io/npm/dt/coffeekraken-s-bodymovin.svg?style=flat-square" />
+	</a>
+	<a href="https://github.com/coffeekraken/s-bodymovin-component">
+		<img src="https://img.shields.io/github/forks/coffeekraken/s-bodymovin-component.svg?style=social&label=Fork&style=flat-square" />
+	</a>
+	<a href="https://github.com/coffeekraken/s-bodymovin-component">
+		<img src="https://img.shields.io/github/stars/coffeekraken/s-bodymovin-component.svg?style=social&label=Star&style=flat-square" />
+	</a> -->
+	<a href="https://twitter.com/coffeekrakenio">
+		<img src="https://img.shields.io/twitter/url/http/coffeekrakenio.svg?style=social&style=flat-square" />
+	</a>
+	<a href="http://coffeekraken.io">
+		<img src="https://img.shields.io/twitter/url/http/shields.io.svg?style=flat-square&label=coffeekraken.io&colorB=f2bc2b&style=flat-square" />
+	</a>
+</p>
+
+Simple webcomponent wrapper around the freaking cool [bodymovin](https://github.com/bodymovin/bodymovin) library
 
 ## Table of content
 
-1. [Install](#readme-install)
-2. [Get Started](#readme-get-started)
-3. [Javascript API](doc/api/js)
-4. [SASS API](doc/api/scss)
-5. [Sugar Web Components Documentation](https://github.com/Coffeekraken/sugar/blob/master/doc/webcomponent.md)
-6. [Browsers support](#readme-browsers-support)
-7. [Contribute](#readme-contribute)
-8. [Who are Coffeekraken?](#readme-who-are-coffeekraken)
-9. [Licence](#readme-license)
+1. **[Demo](http://components.coffeekraken.io/app/s-bodymovin-component)**
+2. [Install](#readme-install)
+3. [Get Started](#readme-get-started)
+4. [Javascript API](doc/api/js)
+5. [SASS API](doc/api/sass)
+6. [Sugar Web Components Documentation](https://github.com/Coffeekraken/sugar/blob/master/doc/js/webcomponents.md)
+7. [Browsers support](#readme-browsers-support)
+8. [Contribute](#readme-contribute)
+9. [Who are Coffeekraken?](#readme-who-are-coffeekraken)
+10. [Licence](#readme-license)
 
 <a name="readme-install"></a>
 ## Install
 
 ```
-npm install coffeekraken-s-bodymovin --save
+npm install coffeekraken-s-bodymovin-component --save
 ```
 
 <a name="readme-get-started"></a>
@@ -27,7 +55,7 @@ npm install coffeekraken-s-bodymovin --save
 First, import the component into your javascript file like so:
 
 ```js
-import SBodymovinComponent from 'coffeekraken-s-bodymovin'
+import SBodymovinComponent from 'coffeekraken-s-bodymovin-component'
 ```
 
 Then simply use it inside your html like so:
@@ -40,6 +68,13 @@ Then simply use it inside your html like so:
 ## Browsers support
 
 Check the bodymovin library browser support [here](http://github.coffeekraken.io/bodymovin/bodymovin/^4.0.0)
+
+| <img src="https://raw.githubusercontent.com/godban/browsers-support-badges/master/src/images/edge.png" alt="IE / Edge" width="16px" height="16px" /></br>IE / Edge | <img src="https://raw.githubusercontent.com/godban/browsers-support-badges/master/src/images/firefox.png" alt="Firefox" width="16px" height="16px" /></br>Firefox | <img src="https://raw.githubusercontent.com/godban/browsers-support-badges/master/src/images/chrome.png" alt="Chrome" width="16px" height="16px" /></br>Chrome | <img src="https://raw.githubusercontent.com/godban/browsers-support-badges/master/src/images/safari.png" alt="Safari" width="16px" height="16px" /></br>Safari |
+| --------- | --------- | --------- | --------- |
+| IE11+ | last 2 versions| last 2 versions| last 2 versions
+
+> As browsers are automatically updated, we will keep as reference the last two versions of each but this component can work on older ones as well.
+
 
 > The webcomponent API (custom elements, shadowDOM, etc...) is not supported in some older browsers like IE10, etc... In order to make them work, you will need to integrate the [corresponding polyfill](https://www.webcomponents.org/polyfills).
 
