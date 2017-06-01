@@ -1,4 +1,4 @@
-# Coffeekraken s-bodymovin <img src=".resources/coffeekraken-logo.jpg" height="25px" />
+# Coffeekraken s-bodymovin-component <img src=".resources/coffeekraken-logo.jpg" height="25px" />
 
 <p>
 	<a href="https://travis-ci.org/Coffeekraken/s-bodymovin-component">
@@ -36,7 +36,7 @@ Simple webcomponent wrapper around the freaking cool [bodymovin](https://github.
 3. [Get Started](#readme-get-started)
 4. [Javascript API](doc/api/js)
 5. [SASS API](doc/api/sass)
-6. [Sugar Web Components Documentation](https://github.com/Coffeekraken/sugar/blob/master/doc/webcomponent.md)
+6. [Sugar Web Components Documentation](https://github.com/Coffeekraken/sugar/blob/master/doc/js/webcomponents.md)
 7. [Browsers support](#readme-browsers-support)
 8. [Contribute](#readme-contribute)
 9. [Who are Coffeekraken?](#readme-who-are-coffeekraken)
@@ -46,7 +46,7 @@ Simple webcomponent wrapper around the freaking cool [bodymovin](https://github.
 ## Install
 
 ```
-npm install https://github.com/Coffeekraken/s-bodymovin-component.git/release/0.0.1 --save
+npm install coffeekraken-s-bodymovin-component --save
 ```
 
 <a name="readme-get-started"></a>
@@ -69,7 +69,7 @@ Then simply use it inside your html like so:
 
 Check the bodymovin library browser support [here](http://github.coffeekraken.io/bodymovin/bodymovin/^4.0.0)
 
-| [<img src="https://raw.githubusercontent.com/godban/browsers-support-badges/master/src/images/edge.png" alt="IE / Edge" width="16px" height="16px" />](http://godban.github.io/browsers-support-badges/)</br>IE / Edge | [<img src="https://raw.githubusercontent.com/godban/browsers-support-badges/master/src/images/firefox.png" alt="Firefox" width="16px" height="16px" />](http://godban.github.io/browsers-support-badges/)</br>Firefox | [<img src="https://raw.githubusercontent.com/godban/browsers-support-badges/master/src/images/chrome.png" alt="Chrome" width="16px" height="16px" />](http://godban.github.io/browsers-support-badges/)</br>Chrome | [<img src="https://raw.githubusercontent.com/godban/browsers-support-badges/master/src/images/safari.png" alt="Safari" width="16px" height="16px" />](http://godban.github.io/browsers-support-badges/)</br>Safari |
+| <img src="https://raw.githubusercontent.com/godban/browsers-support-badges/master/src/images/edge.png" alt="IE / Edge" width="16px" height="16px" /></br>IE / Edge | <img src="https://raw.githubusercontent.com/godban/browsers-support-badges/master/src/images/firefox.png" alt="Firefox" width="16px" height="16px" /></br>Firefox | <img src="https://raw.githubusercontent.com/godban/browsers-support-badges/master/src/images/chrome.png" alt="Chrome" width="16px" height="16px" /></br>Chrome | <img src="https://raw.githubusercontent.com/godban/browsers-support-badges/master/src/images/safari.png" alt="Safari" width="16px" height="16px" /></br>Safari |
 | --------- | --------- | --------- | --------- |
 | IE11+ | last 2 versions| last 2 versions| last 2 versions
 
