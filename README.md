@@ -5,13 +5,13 @@
 		<img src="https://img.shields.io/travis/Coffeekraken/s-bodymovin-component.svg?style=flat-square" />
 	</a>
 	<a href="https://www.npmjs.com/package/coffeekraken-s-bodymovin">
-		<img src="https://img.shields.io/npm/v/coffeekraken-s-bodymovin.svg?style=flat-square" />
+		<img src="https://img.shields.io/npm/v/coffeekraken-s-bodymovin-component.svg?style=flat-square" />
 	</a>
 	<a href="https://github.com/coffeekraken/s-bodymovin-component/blob/master/LICENSE.txt">
-		<img src="https://img.shields.io/npm/l/coffeekraken-s-bodymovin.svg?style=flat-square" />
+		<img src="https://img.shields.io/npm/l/coffeekraken-s-bodymovin-component.svg?style=flat-square" />
 	</a>
 	<!-- <a href="https://github.com/coffeekraken/s-bodymovin-component">
-		<img src="https://img.shields.io/npm/dt/coffeekraken-s-bodymovin.svg?style=flat-square" />
+		<img src="https://img.shields.io/npm/dt/coffeekraken-s-bodymovin-component.svg?style=flat-square" />
 	</a>
 	<a href="https://github.com/coffeekraken/s-bodymovin-component">
 		<img src="https://img.shields.io/github/forks/coffeekraken/s-bodymovin-component.svg?style=social&label=Fork&style=flat-square" />
