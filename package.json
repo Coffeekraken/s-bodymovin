@@ -1,6 +1,6 @@
 {
   "name": "coffeekraken-s-bodymovin-component",
-  "version": "0.0.2",
+  "version": "1.0.0",
   "description": "Simple webcomponent wrapper around the freaking cool bodymovin library",
   "main": "dist/index.js",
   "homepage": "http://coffeekraken.io",
@@ -51,7 +51,7 @@
   "license": "MIT",
   "dependencies": {
     "bodymovin": "^4.5.9",
-    "coffeekraken-sugar": "^0.0.2"
+    "coffeekraken-sugar": "^1.0.0"
   },
   "devDependencies": {
     "babel-cli": "^6.18.0",
