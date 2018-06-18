@@ -1,0 +1,13 @@
+@import 'node_modules/coffeekraken-sugar/index';
+@include s-init();
+@include s-classes();
+body {
+	padding: s-space(big);
+}
+s-bodymovin {
+	height: 150px;
+	width: 150px;
+}
+s-bodymovin[reactive] {
+	cursor: pointer;
+}

@@ -21,32 +21,27 @@ module.exports = {
 		html : {
 			language : 'html',
 			data : `
-				<div class="container">
-					<h1 class="h1 m-b-small">
-						Coffeekraken s-bodymovin-component
-					<h1>
-					<p class="p m-b-bigger">
-						Simple webcomponent wrapper around the freaking cool bodymovin library
-					</p>
-					<s-bodymovin reactive class="active" onclick="this.classList.toggle('active')" src="/data/favourite-app-icon.json"></s-bodymovin>
-					<s-bodymovin autoplay loop src="/data/exploding-heart.json"></s-bodymovin>
-					<s-bodymovin autoplay loop yoyo yoyo-speed="4" src="/data/touch-id.json"></s-bodymovin>
-				</div>
+				<h1 class="h3 m-b-small">
+					Coffeekraken s-bodymovin-component
+				<h1>
+				<p class="p m-b-bigger">
+					Simple webcomponent wrapper around the freaking cool bodymovin library
+				</p>
+				<s-bodymovin reactive class="active" onclick="this.classList.toggle('active')" src="/demo/data/favourite-app-icon.json"></s-bodymovin>
+				<s-bodymovin autoplay loop src="/demo/data/exploding-heart.json"></s-bodymovin>
+				<s-bodymovin autoplay loop yoyo yoyo-speed="4" src="/demo/data/touch-id.json"></s-bodymovin>
 			`
 		},
 		css : {
 			language : 'sass',
 			data : `
 				@import 'node_modules/coffeekraken-sugar/index';
+				@import 'node_modules/coffeekraken-s-typography-component/index';
 				@include s-init();
 				@include s-classes();
 				@include s-typography-classes();
 				body {
-					background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
-				}
-				.container {
-					@include s-position(absolute, middle, center);
-					min-width:80vw;
+					padding: s-space(big);
 				}
 				s-bodymovin {
 					height: 150px;
