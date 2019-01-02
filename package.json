@@ -1,6 +1,6 @@
 {
   "name": "coffeekraken-s-bodymovin-component",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Simple webcomponent wrapper around the freaking cool bodymovin library",
   "main": "dist/index.js",
   "homepage": "http://coffeekraken.io",
