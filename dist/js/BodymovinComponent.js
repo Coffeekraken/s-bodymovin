@@ -107,6 +107,22 @@ var SBodymovinComponent = function (_SWebComponent) {
 		}
 
 		/**
+   * Unmount component
+   * @definition 		SWebComponent.componentUnmount
+   * @protected
+   */
+
+	}, {
+		key: 'componentUnmount',
+		value: function componentUnmount() {
+			// destroy bodymovin
+			this.bodymovin.destroy();
+
+			// make sure we call the parent method
+			_get(SBodymovinComponent.prototype.__proto__ || Object.getPrototypeOf(SBodymovinComponent.prototype), 'componentUnmount', this).call(this);
+		}
+
+		/**
    * Component will receive prop
    * @definition 		SWebComponent.componentWillReceiveProp
    * @protected
