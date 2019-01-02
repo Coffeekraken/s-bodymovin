@@ -240,6 +240,19 @@ export default class SBodymovinComponent extends SWebComponent {
 	}
 
 	/**
+	 * Unmount component
+	 * @definition 		SWebComponent.componentUnmount
+	 * @protected
+	 */
+	componentUnmount() {
+		// destroy bodymovin
+		this.bodymovin.destroy();
+
+		// make sure we call the parent method
+		super.componentUnmount();
+	}
+
+	/**
 	 * Component will receive prop
 	 * @definition 		SWebComponent.componentWillReceiveProp
 	 * @protected
