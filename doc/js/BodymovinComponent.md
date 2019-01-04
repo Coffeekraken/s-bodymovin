@@ -14,16 +14,16 @@ Features:
 ```html
 	<s-bodymovin src="my-cool-animation.json" yoyo></s-bodymovin>
 ```
-Bodymovin repository : [http://github.coffeekraken.io/bodymovin/bodymovin/^4.0.0](http://github.coffeekraken.io/bodymovin/bodymovin/^4.0.0)
+See : **Bodymovin repository** : [http://github.coffeekraken.io/bodymovin/bodymovin/^4.0.0](http://github.coffeekraken.io/bodymovin/bodymovin/^4.0.0)
 
-Author : Olivier Bossel <olivier.bossel@gmail.com>
+Author : Olivier Bossel [olivier.bossel@gmail.com](mailto:olivier.bossel@gmail.com)
 
 
 
 
 ## Attributes
 
-Here's the list of available attribute to set on the element.
+Here's the list of available attribute(s).
 
 ### animationData
 
@@ -31,7 +31,7 @@ Bodymovin animation data object
 
 Type : **{ object }**
 
-See more : [http://github.coffeekraken.io/bodymovin/bodymovin/^4.0.0](http://github.coffeekraken.io/bodymovin/bodymovin/^4.0.0)
+See : **See more** : [http://github.coffeekraken.io/bodymovin/bodymovin/^4.0.0](http://github.coffeekraken.io/bodymovin/bodymovin/^4.0.0)
 
 Default : **null**
 
@@ -42,7 +42,7 @@ Bodymovin json animation relative path
 
 Type : **{ [String](https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Objets_globaux/String) }**
 
-See more : [http://github.coffeekraken.io/bodymovin/bodymovin/^4.0.0](http://github.coffeekraken.io/bodymovin/bodymovin/^4.0.0)
+See : **See more** : [http://github.coffeekraken.io/bodymovin/bodymovin/^4.0.0](http://github.coffeekraken.io/bodymovin/bodymovin/^4.0.0)
 
 Default : **null**
 
@@ -53,7 +53,7 @@ Alias to the "path" prop
 
 Type : **{ [String](https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Objets_globaux/String) }**
 
-See more : [http://github.coffeekraken.io/bodymovin/bodymovin/^4.0.0](http://github.coffeekraken.io/bodymovin/bodymovin/^4.0.0)
+See : **See more** : [http://github.coffeekraken.io/bodymovin/bodymovin/^4.0.0](http://github.coffeekraken.io/bodymovin/bodymovin/^4.0.0)
 
 Default : **null**
 
@@ -64,7 +64,7 @@ Set if the animation has to loop or not
 
 Type : **{ [Boolean](https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Objets_globaux/Boolean) }**
 
-See more : [http://github.coffeekraken.io/bodymovin/bodymovin/^4.0.0](http://github.coffeekraken.io/bodymovin/bodymovin/^4.0.0)
+See : **See more** : [http://github.coffeekraken.io/bodymovin/bodymovin/^4.0.0](http://github.coffeekraken.io/bodymovin/bodymovin/^4.0.0)
 
 Default : **false**
 
@@ -75,9 +75,18 @@ Set if the animation has to autoplay or not
 
 Type : **{ [Boolean](https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Objets_globaux/Boolean) }**
 
-See more : [http://github.coffeekraken.io/bodymovin/bodymovin/^4.0.0](http://github.coffeekraken.io/bodymovin/bodymovin/^4.0.0)
+See : **See more** : [http://github.coffeekraken.io/bodymovin/bodymovin/^4.0.0](http://github.coffeekraken.io/bodymovin/bodymovin/^4.0.0)
 
 Default : **false**
+
+
+### autoplayDelay
+
+Specify a delay in ms to autoplay the animation
+
+Type : **{ Integer }**
+
+Default : **0**
 
 
 ### direction
@@ -86,7 +95,7 @@ Specify the direction of the animation
 
 Type : **{ Integer }**
 
-See more : [http://github.coffeekraken.io/bodymovin/bodymovin/^4.0.0](http://github.coffeekraken.io/bodymovin/bodymovin/^4.0.0)
+See : **See more** : [http://github.coffeekraken.io/bodymovin/bodymovin/^4.0.0](http://github.coffeekraken.io/bodymovin/bodymovin/^4.0.0)
 
 Default : **1**
 
@@ -97,7 +106,7 @@ Set the playback speed
 
 Type : **{ [Number](https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Objets_globaux/Number) }**
 
-See more : [http://github.coffeekraken.io/bodymovin/bodymovin/^4.0.0](http://github.coffeekraken.io/bodymovin/bodymovin/^4.0.0)
+See : **See more** : [http://github.coffeekraken.io/bodymovin/bodymovin/^4.0.0](http://github.coffeekraken.io/bodymovin/bodymovin/^4.0.0)
 
 Default : **1**
 
@@ -108,7 +117,7 @@ Set a name to the animation to get it later through the bodymovin api
 
 Type : **{ [String](https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Objets_globaux/String) }**
 
-See more : [http://github.coffeekraken.io/bodymovin/bodymovin/^4.0.0](http://github.coffeekraken.io/bodymovin/bodymovin/^4.0.0)
+See : **See more** : [http://github.coffeekraken.io/bodymovin/bodymovin/^4.0.0](http://github.coffeekraken.io/bodymovin/bodymovin/^4.0.0)
 
 Default : **null**
 
@@ -119,7 +128,7 @@ Set the renderer to use
 
 Type : **{ [String](https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Objets_globaux/String) }**
 
-See more : [http://github.coffeekraken.io/bodymovin/bodymovin/^4.0.0](http://github.coffeekraken.io/bodymovin/bodymovin/^4.0.0)
+See : **See more** : [http://github.coffeekraken.io/bodymovin/bodymovin/^4.0.0](http://github.coffeekraken.io/bodymovin/bodymovin/^4.0.0)
 
 Default : **svg**
 
