@@ -69,6 +69,13 @@ export default class SBodymovinComponent extends SWebComponent {
 			autoplay : false,
 
 			/**
+			 * Specify a delay in ms to autoplay the animation
+			 * @prop
+			 * @type    {Integer}
+			 */
+			autoplayDelay : 0,
+
+			/**
 			 * Specify the direction of the animation
 			 * @prop
 			 * @type 	{Integer}
@@ -207,6 +214,7 @@ export default class SBodymovinComponent extends SWebComponent {
 		// init bodymovin
 		this.bodymovin = __bodymovin.loadAnimation({
 			...this.props,
+			autoplay: false,
 			container : this,
 			loop : ! this.props.yoyo ? this.props.loop : false,
 			path : this.props.path || this.props.src
@@ -299,54 +307,44 @@ export default class SBodymovinComponent extends SWebComponent {
 		// remove the loading class
 		this.classList.remove(this.props.loadingClass);
 
-		// reactiveClass
-		if (this.props.reactive && this.classList.contains(this.props.reactiveClass)) {
-			this.bodymovin.goToAndStop(this.bodymovin.totalFrames, true);
-		}
+		// autoplay delay
+		setTimeout(() => {
 
-		// check the play on prop
-		if (this.props.playOn) {
-			this.addEventListener(this.props.playOn, (e) => {
-				this.bodymovin.goToAndPlay(0,true);
-			});
-		}
+			if (this.props.autoplay) {
+				this.bodymovin.play()
+			}
 
-		// handle yoyo
-		if (this.props.yoyo) {
-			this.bodymovin.addEventListener('complete', (e) => {
-				if (this.bodymovin.currentFrame <= 0) {
-					this.bodymovin.setSpeed(this.props.speed);
-					this.bodymovin.setDirection(1);
-				} else {
-					setTimeout(() => {
-						this.bodymovin.setSpeed(this.props.yoyoSpeed);
-						this.bodymovin.setDirection(-1);
-					}, this.props.yoyoTimeout);
-				}
-				if (this.props.loop || this.bodymovin.currentFrame > 0) {
-					this.bodymovin.play();
-				}
-			});
-		}
+			// reactiveClass
+			if (this.props.reactive && this.classList.contains(this.props.reactiveClass)) {
+				this.bodymovin.goToAndStop(this.bodymovin.totalFrames, true);
+			}
 
-		// this.props.queuePoints = {
-		// 	0 : 'one',
-		// 	35 : 'two',
-		// 	52 : 'three'
-		// }
-		//
-		// if (this.props.queuePoints) {
-		//
-		// 	this.bodymovin.addEventListener('enterFrame', (e) => {
-		// 		console.log('enterframe', e);
-		// 		if (this.__bodymovinPlayTimeout) return
-		// 		if (this.props.queuePoints[Math.round(e.currentTime)]) {
-		// 			console.log('seg');
-		// 			this.bodymovin.pause();
-		// 		}
-		//
-		// 	});
-		// }
+			// check the play on prop
+			if (this.props.playOn) {
+				this.addEventListener(this.props.playOn, (e) => {
+					this.bodymovin.goToAndPlay(0,true);
+				});
+			}
+
+			// handle yoyo
+			if (this.props.yoyo) {
+				this.bodymovin.addEventListener('complete', (e) => {
+					if (this.bodymovin.currentFrame <= 0) {
+						this.bodymovin.setSpeed(this.props.speed);
+						this.bodymovin.setDirection(1);
+					} else {
+						setTimeout(() => {
+							this.bodymovin.setSpeed(this.props.yoyoSpeed);
+							this.bodymovin.setDirection(-1);
+						}, this.props.yoyoTimeout);
+					}
+					if (this.props.loop || this.bodymovin.currentFrame > 0) {
+						this.bodymovin.play();
+					}
+				});
+			}
+
+		}, this.props.autoplayDelay)
 	}
 
 	/**
